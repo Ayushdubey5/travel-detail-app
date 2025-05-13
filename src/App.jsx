@@ -127,7 +127,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('https://backend-ycr7.onrender.com/api/email', {
+      await axios.post('https://backend-zfrz.onrender.com/api/email', {
         email,
         eventId: selectedEvent.id,
       });
